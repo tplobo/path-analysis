@@ -29,6 +29,9 @@ To use the extension:
 The **Calculate** button can perform its action for multiple paths,  so steps 1 and 2 can be repeated as many times as necessary.
 The **Delete** button (paper shreder icon) can be used to delete analysis solutions for all paths.
 
+The example file `ANSYS_PathAnalysis_Example.wbpz` in the repo can be used to test the extension after it has been installed and enabled.
+It contains a named Node and a named Surface that can define a path, in a simple geometry loaded with a simple temperature distribution.
+
 ***
 ### Development
 The extension is a simple set of files: one .XML for configuring the toolbar and a few .PY to define the functions necessary to runits features.

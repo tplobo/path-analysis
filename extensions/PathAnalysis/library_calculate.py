@@ -6,7 +6,7 @@ def init(context):
 
 # Define solution file path
 def build_fullpath():
-    filename = "linearized_data.CSV"
+    filename = "path_solutions.CSV"
     desktoppath = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
     #folderpath = r"C:\Users\ea5322\Desktop"
     fullpath = os.path.join(desktoppath,filename)

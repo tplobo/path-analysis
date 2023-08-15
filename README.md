@@ -3,7 +3,7 @@ Extension package for ANSYS Mechanical for computing and exporting stress and te
 
 ***
 ### Introduction
-This package was developed as a simple (_i.e._ quick and dirty) tool to compute and export stress and temperature analyses along linear paths between a point and surface pair selected in ANSYS Mechanical.
+This package was developed as a simple (_i.e._ quick and dirty) tool to compute and export stress and temperature analyses along linear paths between a point and surface pair selected in ANSYS Mechanical. Check [this link](https://feaforall.com/introduction-stress-linearization/) or [this link](https://www.graspengineering.com/what-is-stress-linearization/) or [this link](https://featips.com/2022/10/27/stress-linearization-explained/) for more information on linearization along FEM/FEA paths. [This article](https://asmedigitalcollection.asme.org/pressurevesseltech/article/113/4/481/436544/The-ASME-Code-and-3D-Stress-Evaluation) also provides a good example.
 
 This has the aim of producing analyses necessary for licensing pressure vessels under some regulations (_e.g._ [ASME's BPVC Section VIII](https://www.asme.org/codes-standards/find-codes-standards/bpvc-viii-1-bpvc-section-viii-rules-construction-pressure-vessels-division-1/2023/print-book), [afcen's RCC-MRx Code](https://www.afcen.com/en/rcc-mrx/198-rcc-mrx-rcc-mr.html)).
 

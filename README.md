@@ -5,7 +5,7 @@ Extension package for ANSYS Mechanical for computing and exporting stress and te
 ### Introduction
 This package was developed as a simple (_i.e._ quick and dirty) tool to compute and export stress and temperature analyses along linear paths between a point and surface pair selected in ANSYS Mechanical.
 
-This has the aim of producing analyses necessary for licensing pressure vessels under some regulations (_e.g._ TBD).
+This has the aim of producing analyses necessary for licensing pressure vessels under some regulations (_e.g._ [ASME's BPVC Section VIII](https://www.asme.org/codes-standards/find-codes-standards/bpvc-viii-1-bpvc-section-viii-rules-construction-pressure-vessels-division-1/2023/print-book), [afcen's RCC-MRx Code](https://www.afcen.com/en/rcc-mrx/198-rcc-mrx-rcc-mr.html)).
 
 ***
 ### Installation

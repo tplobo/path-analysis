@@ -23,8 +23,8 @@ Don't forget to substitute `<username>` and `<version>`!
 ### Usage
 After installation, the extension must be loaded in the Workbench toolbar:
 `Extensions > Extensions Manager`
-by enabling the check-box for **PathAnalysis**. A menu of the same name should appear in the toolbar of your results visualization window (_i.e._ not in the workbench).
-
+by enabling the check-box for **PathAnalysis**. A menu of the same name should appear in the toolbar of your results visualization window (_i.e._ not in the workbench):
+![Toolbar menu of the PathAnalysis extension.](https://github.com/tplobo/path-analysis/blob/94394dd69eb74889acf7b6b4110a3967169aca94/example/screenshot_toolbar.png)
 
 To use the extension:
 1. first create **named selections** for both a node and a surface in your results visualization window;
@@ -34,15 +34,23 @@ To use the extension:
 The **Calculate** button can perform its action for multiple paths,  so steps 1 and 2 can be repeated as many times as necessary.
 The **Delete** button (paper shreder icon) can be used to delete analysis solutions for all paths.
 
-The example file `ANSYS_PathAnalysis_Example.wbpz` in the repo can be used to test the extension after it has been installed and enabled.
-It contains a named Node and a named Surface that can define a path, in a simple geometry loaded with a simple temperature distribution.
+The example file in the repo can be used to test the extension after it has been installed and enabled.
+
+It contains a named Node and a named Surface that can define a path, in a simple geometry loaded with a simple temperature distribution. Altering the given node/surface and clicking Path a few times can provide us with linear paths to perform an example analysis:
+![Multiple paths created by changing the Node and Surface named selections.](https://github.com/tplobo/path-analysis/blob/94394dd69eb74889acf7b6b4110a3967169aca94/example/screenshot_paths.png)
+
+Solutions are produced and renamed accordingly:
+![One of the path analysis solutions: the Linearized Equivalent Stress along the first path.](https://github.com/tplobo/path-analysis/blob/94394dd69eb74889acf7b6b4110a3967169aca94/example/screenshot_solution.png)
+
+And the summaries are exported as a CSV file onto the Desktop, that can be opened with Excel for example:
+![Solution summaries exported and opened as a spreadsheet.](https://github.com/tplobo/path-analysis/blob/94394dd69eb74889acf7b6b4110a3967169aca94/example/screenshot_export.png)
 
 ***
 ### Development
 The extension is a simple set of files: one .XML for configuring the toolbar and a few .PY to define the functions necessary to runits features.
 
 If you intend to modify the package, it might be a good idea to enable the debugging mode in the ANSYS Mechanical GUI. To do so, in the Workbench toolbar:
-`Tools > Options > Extensions`
+`Tools > Options > Extensions`,
 enable the check-box for **Debug Mode**.
 
-For more information on how to make your own extensions for ANSYS, please refer to [the ANSYS ACT Developers Guides](https://catalog.ansys.com/Developers.cshtml)
+For additional information on XML tags and custom extensions, one can always check the *Online API and XML Reference Guides* in [ANSYS ACT Developers Guides](https://catalog.ansys.com/Developers.cshtml).

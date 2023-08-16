@@ -2,4 +2,4 @@
 extensions/*.xml linguist-detectable
 
 # Neglect files in examples folder
-example/* linguist-vendored
+example/** linguist-vendored

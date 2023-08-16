@@ -1,0 +1,33 @@
+# encoding: utf-8
+# 2023 R1
+SetScriptVersion(Version="23.1.153")
+Extensions.LoadExtension(
+    Id="d4c1ed2d-5104-4509-b078-5ad95b712df1",
+    Version="0.1",
+    Format="Scripted")
+system1 = GetSystem(Name="SYS 1")
+results1 = system1.GetContainer(ComponentName="Results")
+results1.Edit()
+Extensions.RemoveFromDefaultExtensions(Id="e58f9c27-8401-45e5-83b8-72af00fdd1a2")
+Extensions.UnloadExtension(Id="e58f9c27-8401-45e5-83b8-72af00fdd1a2")
+Extensions.UnloadExtension(
+    Id="d4c1ed2d-5104-4509-b078-5ad95b712df1",
+    Version="0.1",
+    Format="Scripted")
+Extensions.LoadExtension(
+    Id="d4c1ed2d-5104-4509-b078-5ad95b712df1",
+    Version="0.1",
+    Format="Scripted")
+Save(Overwrite=True)
+Extensions.UnloadExtension(
+    Id="d4c1ed2d-5104-4509-b078-5ad95b712df1",
+    Version="0.1",
+    Format="Scripted")
+Extensions.LoadExtension(
+    Id="d4c1ed2d-5104-4509-b078-5ad95b712df1",
+    Version="0.1",
+    Format="Scripted")
+system2 = GetSystem(Name="SYS")
+model1 = system2.GetContainer(ComponentName="Model")
+model1.Exit()
+Save(Overwrite=True)

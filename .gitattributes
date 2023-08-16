@@ -1,2 +1,5 @@
 # Add files that configure toolbar buttons as XML language for github `linguist`:
 extensions/*.xml linguist-detectable
+
+# Neglect files in examples folder
+example/* linguist-vendored

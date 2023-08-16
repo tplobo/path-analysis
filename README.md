@@ -3,7 +3,7 @@ Extension package for ANSYS Mechanical for computing and exporting stress and te
 
 ### Sharing
 [![Repo](https://img.shields.io/badge/GitHub-PathAnalysis-blue)](https://github.com/tplobo/path-analysis)
-[![Developer Portal article](https://img.shields.io/badge/ANSYS-Developer_Portal-orange)](TBD)
+[![Developer Portal discussion](https://img.shields.io/badge/ANSYS-Developer_Portal-orange)](https://discuss.ansys.com/discussion/2398/pathanalysis-package-for-ansys-mechanical#latest)
 
 ***
 ### Introduction

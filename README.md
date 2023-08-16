@@ -1,6 +1,10 @@
 # **PathAnalysis** package for ANSYS Mechanical
 Extension package for ANSYS Mechanical for computing and exporting stress and temperature analyses along linear paths.
 
+### Sharing
+[![Repo](https://img.shields.io/badge/GitHub-PathAnalysis-blue)](https://github.com/tplobo/path-analysis)
+[![Developer Portal article](https://img.shields.io/badge/ANSYS-Developer_Portal-orange)](TBD)
+
 ***
 ### Introduction
 This package was developed as a simple (_i.e._ quick and dirty) tool to compute and export stress and temperature analyses along linear paths between a point and surface pair selected in ANSYS Mechanical. Check [this link](https://feaforall.com/introduction-stress-linearization/) or [this link](https://www.graspengineering.com/what-is-stress-linearization/) or [this link](https://featips.com/2022/10/27/stress-linearization-explained/) for more information on linearization along FEM/FEA paths. [This article](https://asmedigitalcollection.asme.org/pressurevesseltech/article/113/4/481/436544/The-ASME-Code-and-3D-Stress-Evaluation) also provides a good example.
@@ -20,6 +24,7 @@ Don't forget to substitute `<username>` and `<version>`!
 After installation, the extension must be loaded in the Workbench toolbar:
 `Extensions > Extensions Manager`
 by enabling the check-box for **PathAnalysis**. A menu of the same name should appear in the toolbar of your results visualization window (_i.e._ not in the workbench).
+
 
 To use the extension:
 1. first create **named selections** for both a node and a surface in your results visualization window;

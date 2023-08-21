@@ -47,7 +47,7 @@ And the summaries are exported as a CSV file onto the Desktop, that can be opene
 
 ***
 ### Development
-The extension is a simple set of files: one .XML for configuring the toolbar and a few .PY to define the functions necessary to runits features.
+The extension is a simple set of files: one .XML for configuring the toolbar and a few .PY to define the functions necessary to run its features.
 
 If you intend to modify the package, it might be a good idea to enable the debugging mode in the ANSYS Mechanical GUI. To do so, in the Workbench toolbar:
 `Tools > Options > Extensions`,
